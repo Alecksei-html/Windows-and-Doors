@@ -1,0 +1,127 @@
+.body, html {
+    max-height: auto;
+    max-width: auto;
+    display:grid;
+    margin: 30px;
+}
+.col-md-5 {
+    float: left;
+    padding: 15 px;
+    text-align: center;
+    position:fixed;
+}
+.header {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.nav-item {
+    border-radius: 5px 5px 5px 5px;
+    border-color:red;
+    font-family:serif;
+    font-size: 14pt;
+    color: black;
+}
+.mein-menu {
+    display:flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.row  {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.contact {
+    font-size: 14pt;
+    font-family:serif;
+}
+.head_text {
+    display:flex;
+    justify-content: center;
+    font-family:serif;
+    text-align: center;
+    height: auto;
+}
+.baner {
+    text-align: center;
+    justify-content: center;
+}
+.main {
+    display:block;
+    text-align: center;
+    justify-content: center;
+}
+.title {
+    font-family: serif;
+    font-size: 22pt;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.colum {
+    justify-content: center;
+    display: flex;
+    width: 33,33%;
+}
+.desk {
+    font-family: serif;
+}
+.zamer {
+   background-image: url(img/zamer2.jpg);
+   margin: 40px;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+.zamer .forms {
+    position: relative;
+    float: left;
+    width: 400px;
+    background: #ffff;
+    padding: 15px;
+    border-radius: 15px 15px 15px 15px;
+    border-color: black;
+}
+.cf-title {
+    font-size: 16pt;
+    font-family: serif;
+}
+.cf-desc {
+    font-family: serif;
+}
+.wpcf7 {
+    font-family: serif;
+}
+.text {
+    margin: 40px;
+}
+.footer {
+    background-color: darkgrey;
+    margin: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.midle {
+    margin: 40px;
+}
+.card {
+    color: black;
+    width: 20rem;
+    margin-top:15px;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    font-family:serif;
+}
+.card-title {
+    font-size: 13pt;
+}
+.card-body {
+    padding: 0;
+}
+.card img {
+    padding-top: 10px;
+}
