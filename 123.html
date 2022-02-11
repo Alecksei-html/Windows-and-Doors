@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Пластиковые двери и окна от производителя</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
-    <script src="js/js.js"></script>
     <script src="jquaery/jquery-3.0.0.min.js"></script>
+    <script src="js/slide.js"></script>
     <script src="bootstrap-4.5.3-dist/js/bootstrap.js"></script>
 </head>
 <body>
-    <div id="container">
-        <div class="row">
-            <div class="header" class="clearfix">
+                <div class="header">
          <div class="col-md-5">
              <div id="logo">
                  <a href="123.html" title="Мегаполис - окна и двери на любой вкус"><img src="image/Logo1.png" alt="Мегаполис - окна и двери на любой вкус" class="png"></a>
@@ -25,9 +23,7 @@
                         </div>
                     </div>
             </div>
-        </div>
-    </div>
-        <hr width="85%">
+                  <hr class="hr-line">
     <div class="mein-menu">
          <nav class="navbar navbar-expand-lg navbar-light bg-white">
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -51,71 +47,104 @@
     </div>
     <div id="main" role="main" class="clearfix">
         <div class="content">
-            <div class="baner">
-                <img class="baner" src="image/baner.jpg">
-            </div>
             <div class="clear"></div>
             <div class="benefits">
                 <div class="main">
+                    <ul class="breadcrumb">
+                        <li><a href="main.html">Главная</a></li>
+                     </ul>
+                     <div id="slider" class="slider">
+                         <ol class="slider_indicators">
+                         <li class="slider_indicator slider_indicator_active" data-slide-to="0"></li>
+                         <li class="slider_indicator" data-slide-to="1"></li>
+                         <li class="slider_indicator" data-slide-to="2"></li>
+                         <li class="slider_indicator" data-slide-to="3"></li>
+                         </ol>
+                         <div class="slider_items">
+                         <div class="slider_item slider_item_1 slider_item_active">
+                             <div class="slider_text">
+                                 <h1>Заголовок h1</h1>
+                                 <h2>Подзаголовок h2</h2>
+                                 <p>Текст</p>
+                             </div>
+                             <img src="image/dveri.jpg" alt="slide1">
+                         </div>
+                         <div class="slider_item slider_item_2 slider_item_active">
+                         <div class="slider_text">
+                                 <h1>Заголовок h1</h1>
+                                 <h2>Подзаголовок h2</h2>
+                                 <p>Текст</p>
+                             </div>
+                             <img src="image/window.jpg" alt="slide2">
+                         </div>
+                         <div class="slider_item slider_item_3 slider_item_active">
+                             <div class="slider_text">
+                                 <h1>Заголовок h1</h1>
+                                 <h2>Подзаголовок h2</h2>
+                                 <p>Текст</p>
+                             </div>
+                             <img src="image/zhaluzi.jpg" alt="slide3">
+                             <div class="slider_text">
+                                <h1>Заголовок h1</h1>
+                                <h2>Подзаголовок h2</h2>
+                                <p>Текст</p>
+                            </div>
+                         </div>
+                         </div>
+                         <a class="slider_control slider_control_prev" href="#" role="button"></a>
+                         <a class="slider_control slider_control_next" href="#" role="button"></a>
+                         </div>
                     <div class="title"><i>Почему стоит выбрать именно нас?</i>
-                        <hr width="25%">
-                        </div> 
-                    <div class="colum">
+                    </div> 
+                        <hr class="hr-line">
+                                            <div class="colum">
                         <div class="col-sm-3">
-                            <img src="image/comanda.png" width="110" height="110" alt="comanda">
+                            <img src="image/comanda.png" width="90" height="90" alt="comanda">
                              <div class="desk">
                                 Команда профессионалов<br>
                                  с большим опытом роботы
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <img src="image/certificate.png" width="110" height="110" alt="certificate">
+                            <img src="image/certificate.png" width="90" height="90" alt="certificate">
                             <div class="desk">
                                 Официальная гарантия<br>
                                 от производителя 
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <img src="image/robota1.png" width="110" height="110" alt="robota">
+                            <img src="image/robota1.png" width="90" height="90" alt="robota">
                              <div class="desk">
                                 Мы работаем с самыми<br>
                                  известными производителями в Украине
                             </div>
                         </div>
                     </div>
+                    </div>
+                    </div>
                     <br>
-                    <hr width="25%">
+                    <hr class="hr-line">
                     <div class="row">
                         <div class="title"><i>Самые популярные модели для дома</i>
                     </div>
                 </div>
-                    <hr width="25%">
+                    <hr class="hr-line">
                     <div class="zamer">
-                        <div class="container">
-                        <div class="forms">
-                            <div role="form" class="wpcf7" id="wpcf7-f51-o1" lang="ru-RU" dir="ltr">
-                                <div class="screen-reader-response"></div>
-                                <form action="/portfolio/29/#wpcf7-f51-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-                                    <div style="display: none;">
-                                        <input type="hidden" name="_wpcf7" value="51">
-                                        <input type="hidden" name="_wpcf7_version" value="4.3.1">
-                                        <input type="hidden" name="_wpcf7_locale" value="ru_RU">
-                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f51-o1">
-                                        <input type="hidden" name="_wpnonce" value="f854989ffa">
-                                    </div>
-                                    <div class="cf-title">Вызов замерщика</div>
-                                    <div class="cf-desc">Оставьте заявку и наш специалист сделает все необходимые замеры</div>
-                                    <p>Введите ваше имя <span class="red">*</span><br>
-                                        <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Пример: Максим"></span></p>
-                                    <p>Введите контактный телефон <span class="red">*</span><br>
-                                        <span class="wpcf7-form-control-wrap tel-1"><input type="tel" name="tel-1" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Пример: +38(0xx)-xx-xx-xxx"></span></p>
-                                    <p><input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit mybtn cf7-zamer"><img class="ajax-loader" src="http://dev.max-webs.com/portfolio/29/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Отправка..." style="visibility: hidden;"></p>
-                                    <div class="clear"></div>
-                                    <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
-                            </div>
-                        </div>
+                                      <div class="container">
+                                   <form action="/action_page.php">
+                                     <div class="title"><b>Вызов замерщика</b></div>
+                                    <div class="desc"><b>Оставьте заявку и наш специалист сделает все необходимые замеры</b></div>
+                                <label for="fname"><b>Введите Ваше имя</b></label>
+                                <input type="text" id="fname" name="firstname" placeholder="Пример: Максим"><br>
+                            
+                                <label for="phone"><b>Введите номер телефона</b></label>
+                                <input type="text" id="phone" name="telephone" placeholder="Пример: +38(0xx)-xx-xx-xxx">
+                                                                                     
+                                <input type="submit" value="Отправить">
+                              </form>
+                                                </div>
                     </div>
-                    <hr width="25%">
+                    <hr class="hr-line">
                     <div class="text">
                     <div class="text-justify indent">
                         <p>Добро пожаловать на наш сайт <strong>Мегаполис</strong>!</p>
@@ -149,12 +178,13 @@
                         </ul>
                         </div>
                     </div>
+                    <hr class="hr-line">
                     <div id="footer">
                         <footer>
                             <div class="footer">
-                                <div class="container">
+                                <div class="row">
                                         <div class="col-sm-3">
-                                            <ul>
+                                            <ul style="list-style: none;">
                                                 <li><a href="123.html">Главная</a></li>
                                                 <li><a href="katalog.html">Каталог</a></li>
                                                 <li><a href="dostsvka.html">Доставка и монтаж</a></li>
@@ -168,12 +198,12 @@
                         </div>
                                             </div>
                                     <div class="col-sm-3">
-                                        <img src="image/Status.jpg">
-                                        <img src="image/goodwin.png">
-                                        <img src="image/steko.png">
-                                        <img src="image/ukrdveri.png">
-                                        <img src="image/vega.jpg">
-                                        <img src="image/WDS-17.jpg">
+                                        <img src="image/Status.jpg" alt="image">
+                                        <img src="image/goodwin.png" alt="image">
+                                        <img src="image/steko.png" alt="image">
+                                        <img src="image/ukrdveri.png" alt="image">
+                                        <img src="image/vega.jpg" alt="image">
+                                        <img src="image/WDS-17.jpg" alt="image">
                                     </div>
                                     </div>
                                 </div>
@@ -183,9 +213,5 @@
                             </div>
                     </div>
             </div>
-	<div class="clear">
-            </div>  
-        </div>
-    </div>
 </body>
 </html>
